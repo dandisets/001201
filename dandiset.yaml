@@ -19,9 +19,11 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 274731808
-  numberOfFiles: 7
-  numberOfSubjects: 2
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 8335943274
+  numberOfFiles: 204
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
@@ -30,6 +32,7 @@ assetsSummary:
   variableMeasured:
   - ProcessingModule
   - ElectrodeGroup
+  - ElectricalSeries
 citation: 'Temmar, Hisham (2024) LINK: Long-Term Intracortical Neural Activity and
   Kinematics (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001201/draft'
 contributor:
