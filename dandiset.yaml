@@ -33,8 +33,8 @@ assetsSummary:
   - ElectricalSeries
   - ElectrodeGroup
 citation: 'Temmar, Hisham; Cubillos, Luis Hernan; Costello, Joseph T.; Wang, Yixuan;
-  Gill, Nina (2025) LINK: Long-Term Intracortical Neural Activity and Kinematics (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001201/draft'
+  Gill, Nina; Wallace, Dylan M. (2025) LINK: Long-Term Intracortical Neural Activity
+  and Kinematics (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001201/draft'
 contributor:
 - affiliation:
   - name: University of Michigan
@@ -115,9 +115,24 @@ contributor:
   roleName:
   - dcite:Author
   - dcite:FormalAnalysis
-  - dcite:Methodology
   schemaKey: Person
-- {}
+- email: riopar@umich.edu
+  name: Parsons, Rio I.
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  schemaKey: Person
+- affiliation:
+  - name: University of Michigan
+    schemaKey: Affiliation
+  email: dywallac@umich.edu
+  identifier: 0000-0003-2770-3614
+  includeInCitation: true
+  name: Wallace, Dylan M.
+  roleName:
+  - dcite:DataCollector
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2024-10-01T00:19:48.975415+00:00'
 description: 'This dataset contains 312 sessions of multiunit threshold crossings,
   spiking band power, and behavioral data from a macaque performing a self-paced finger
