@@ -111,6 +111,7 @@ contributor:
     name: University of Michigan
     schemaKey: Affiliation
   email: riopar@umich.edu
+  identifier: 0009-0000-3931-7492
   includeInCitation: true
   name: Parsons, Rio I.
   roleName:
@@ -135,6 +136,7 @@ contributor:
   - name: Sant'Anna School of Advanced Studies
     schemaKey: Affiliation
   email: mceradin@umich.edu
+  identifier: 0000-0001-8062-4689
   includeInCitation: true
   name: Ceradini, Matteo
   roleName:
@@ -145,8 +147,11 @@ contributor:
     name: University of Michigan
     schemaKey: Affiliation
   email: mkelb@umich.edu
+  identifier: 0000-0003-1395-6792
   includeInCitation: true
   name: Kelberman, Madison M.
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/00jmfr291
@@ -183,6 +188,7 @@ contributor:
   - identifier: https://ror.org/00jmfr291
     name: University of Michigan
     schemaKey: Affiliation
+  identifier: 0000-0002-7127-0986
   includeInCitation: true
   name: Nason-Tomaszewski, Samuel R.
   roleName:
@@ -203,6 +209,7 @@ contributor:
     name: University of Michigan
     schemaKey: Affiliation
   email: pgpatil@umich.edu
+  identifier: 0000-0002-2300-6136
   includeInCitation: true
   name: Patil, Parag G.
   roleName:
@@ -213,16 +220,19 @@ contributor:
     name: University of Michigan
     schemaKey: Affiliation
   email: adraelos@umich.edu
+  identifier: 0000-0002-9046-3193
   includeInCitation: true
   name: Draelos, Anne W.
   roleName:
   - dcite:Author
   schemaKey: Person
+  url: https://draeloslab.org/
 - affiliation:
   - identifier: https://ror.org/00jmfr291
     name: University of Michigan
     schemaKey: Affiliation
   email: cchestek@umich.edu
+  identifier: 0000-0002-9671-7051
   includeInCitation: true
   name: Chestek, Cynthia A.
   schemaKey: Person
