@@ -4,7 +4,7 @@
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
 about:
-- {}
+- schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -32,9 +32,12 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: 'Temmar, Hisham; Cubillos, Luis Hernan; Costello, Joseph T.; Wang, Yixuan;
-  Gill, Nina; Wallace, Dylan M. (2025) LINK: Long-Term Intracortical Neural Activity
-  and Kinematics (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001201/draft'
+citation: 'Temmar, Hisham; Gill, Nina; Wang, Yixuan; Cubillos, Luis Hernan; Parsons,
+  Rio I.; Costello, Joseph T.; Ceradini, Matteo; Kelberman, Madison M.; Mender, Matthew
+  J.; Hite, Aren I.; Wallace, Dylan M.; Nason-Tomaszewski, Samuel R.; Willsey, Matthew
+  S.; Patil, Parag G.; Draelos, Anne W.; Chestek, Cynthia A. (2025) LINK: Long-Term
+  Intracortical Neural Activity and Kinematics (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001201/draft'
 contributor:
 - affiliation:
   - name: University of Michigan
@@ -45,33 +48,18 @@ contributor:
   name: Temmar, Hisham
   roleName:
   - dcite:ContactPerson
-  schemaKey: Person
-- affiliation:
-  - name: University of Michigan
-    schemaKey: Affiliation
-  email: lhcubill@umich.edu
-  identifier: 0000-0001-9876-6204
-  includeInCitation: true
-  name: Cubillos, Luis Hernan
-  roleName:
-  - dcite:DataCollector
-  - dcite:DataManager
-  - dcite:Methodology
   - dcite:Author
   schemaKey: Person
 - affiliation:
   - name: University of Michigan
     schemaKey: Affiliation
-  email: costellj@umich.edu
-  identifier: 0000-0001-7608-0885
+  email: nrgill@umich.edu
   includeInCitation: true
-  name: Costello, Joseph T.
+  name: Gill, Nina
   roleName:
-  - dcite:DataCollector
-  - dcite:DataManager
-  - dcite:Methodology
   - dcite:Author
-  - dcite:FormalAnalysis
+  - dcite:DataCurator
+  - dcite:Validation
   schemaKey: Person
 - affiliation:
   - name: University of Michigan
@@ -85,17 +73,6 @@ contributor:
   - dcite:Validation
   - dcite:Visualization
   - dcite:Author
-  schemaKey: Person
-- affiliation:
-  - name: University of Michigan
-    schemaKey: Affiliation
-  email: nrgill@umich.edu
-  includeInCitation: true
-  name: Gill, Nina
-  roleName:
-  - dcite:Author
-  - dcite:DataCurator
-  - dcite:Validation
   schemaKey: Person
 - affiliation:
   - name: University of Michigan
@@ -116,11 +93,80 @@ contributor:
   - dcite:Author
   - dcite:FormalAnalysis
   schemaKey: Person
-- email: riopar@umich.edu
+- affiliation:
+  - name: University of Michigan
+    schemaKey: Affiliation
+  email: lhcubill@umich.edu
+  identifier: 0000-0001-9876-6204
+  includeInCitation: true
+  name: Cubillos, Luis Hernan
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataManager
+  - dcite:Methodology
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  email: riopar@umich.edu
+  includeInCitation: true
   name: Parsons, Rio I.
   roleName:
   - dcite:Author
   - dcite:FormalAnalysis
+  schemaKey: Person
+- affiliation:
+  - name: University of Michigan
+    schemaKey: Affiliation
+  email: costellj@umich.edu
+  identifier: 0000-0001-7608-0885
+  includeInCitation: true
+  name: Costello, Joseph T.
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataManager
+  - dcite:Methodology
+  - dcite:Author
+  - dcite:FormalAnalysis
+  schemaKey: Person
+- affiliation:
+  - name: Sant'Anna School of Advanced Studies
+    schemaKey: Affiliation
+  email: mceradin@umich.edu
+  includeInCitation: true
+  name: Ceradini, Matteo
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  email: mkelb@umich.edu
+  includeInCitation: true
+  name: Kelberman, Madison M.
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  email: mmender@umich.edu
+  includeInCitation: true
+  name: Mender, Matthew J.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  email: arenhite@umich.edu
+  includeInCitation: true
+  name: Hite, Aren I.
+  roleName:
+  - dcite:Author
   schemaKey: Person
 - affiliation:
   - name: University of Michigan
@@ -132,6 +178,53 @@ contributor:
   roleName:
   - dcite:DataCollector
   - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Nason-Tomaszewski, Samuel R.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  email: mwillsey@umich.edu
+  includeInCitation: true
+  name: Willsey, Matthew S.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  email: pgpatil@umich.edu
+  includeInCitation: true
+  name: Patil, Parag G.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  email: adraelos@umich.edu
+  includeInCitation: true
+  name: Draelos, Anne W.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00jmfr291
+    name: University of Michigan
+    schemaKey: Affiliation
+  email: cchestek@umich.edu
+  includeInCitation: true
+  name: Chestek, Cynthia A.
   schemaKey: Person
 dateCreated: '2024-10-01T00:19:48.975415+00:00'
 description: 'This dataset contains 312 sessions of multiunit threshold crossings,
