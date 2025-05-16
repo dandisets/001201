@@ -17,12 +17,12 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 12561121990
-  numberOfFiles: 312
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 11817917716
+  numberOfFiles: 294
   numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
@@ -30,14 +30,14 @@ assetsSummary:
     name: Macaca mulatta - Rhesus monkey
     schemaKey: SpeciesType
   variableMeasured:
-  - ElectricalSeries
   - ElectrodeGroup
-citation: 'Temmar, Hisham; Gill, Nina; Wang, Yixuan; Cubillos, Luis Hernan; Parsons,
-  Rio I.; Costello, Joseph T.; Ceradini, Matteo; Kelberman, Madison M.; Mender, Matthew
-  J.; Hite, Aren I.; Wallace, Dylan M.; Nason-Tomaszewski, Samuel R.; Willsey, Matthew
-  S.; Patil, Parag G.; Draelos, Anne W.; Chestek, Cynthia A. (2025) LINK: Long-Term
-  Intracortical Neural Activity and Kinematics (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001201/draft'
+  - ElectricalSeries
+citation: 'Temmar, Hisham; Gill, Nina; Wang, Yixuan; Mellon, Nicholas B.; Liu, Chang;
+  Cubillos, Luis Hernan; Parsons, Rio I.; Costello, Joseph T.; Ceradini, Matteo; Kelberman,
+  Madison M.; Mender, Matthew J.; Hite, Aren I.; Wallace, Dylan M.; Nason-Tomaszewski,
+  Samuel R.; Willsey, Matthew S.; Patil, Parag G.; Draelos, Anne W.; Chestek, Cynthia
+  A. (2025) LINK: Long-Term Intracortical Neural Activity and Kinematics (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001201/draft'
 contributor:
 - affiliation:
   - name: University of Michigan
@@ -78,6 +78,7 @@ contributor:
   - name: University of Michigan
     schemaKey: Affiliation
   email: nbmellon@umich.edu
+  includeInCitation: true
   name: Mellon, Nicholas B.
   roleName:
   - dcite:Author
@@ -88,6 +89,7 @@ contributor:
   - name: University of Michigan
     schemaKey: Affiliation
   email: eddyliu@umich.edu
+  includeInCitation: true
   name: Liu, Chang
   roleName:
   - dcite:Author
@@ -240,7 +242,7 @@ dateCreated: '2024-10-01T00:19:48.975415+00:00'
 description: 'This dataset contains 312 sessions of multiunit threshold crossings,
   spiking band power, and behavioral data from a macaque performing a self-paced finger
   movement task. These sessions were recorded on 303 days spanning 1,242 days (~3.5
-  years). The dataset will be useful in evaluating the stability of neural populatio
+  years). The dataset will be useful in evaluating the stability of neural population
   recordings and BMI decoding algorithms across long time frames. On each day, we
   include 96 channels of neural activity from Utah microelectrode arrays implanted
   in the motor cortex (M1). The positions & velocities of the index finger and middle-ring-small
@@ -251,9 +253,9 @@ description: 'This dataset contains 312 sessions of multiunit threshold crossing
   at a non-center location and then both targets at center), or random targets (target
   position for each finger chosen randomly at each trial, with a maximum flexion difference
   between fingers of 50%). Further details on the experimental setup can be found
-  in Nason et al. 2021, Neuron (DOI: 10.1016/j.neuron.2021.08.009) On 9 days, two
-  sessions (one of each target style. Code for this dataset can be found at (https://github.com/chesteklab/LINK_dataset).
-  The associated paper is currently in submission, but will be available here.'
+  in Nason et al. 2021, Neuron (DOI: 10.1016/j.neuron.2021.08.009) Code for this dataset
+  can be found at (https://github.com/chesteklab/LINK_dataset). The associated paper
+  is currently in submission, but will be available here.'
 ethicsApproval: []
 id: DANDI:001201/draft
 identifier: DANDI:001201
