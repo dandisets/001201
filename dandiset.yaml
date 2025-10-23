@@ -4,7 +4,8 @@
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
 about:
-- schemaKey: GenericType
+- name: Motor Cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -17,12 +18,12 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 12481695022
-  numberOfFiles: 311
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 12563287466
+  numberOfFiles: 312
   numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:
@@ -238,7 +239,32 @@ contributor:
   includeInCitation: true
   name: Chestek, Cynthia A.
   schemaKey: Person
+- awardNumber: '2223822'
+  name: NSF
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '1926576'
+  name: NSF
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: AWD011321
+  name: Kahn, Dan D. and Betty, Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- name: Agencia Nacional de Investigacion y Desarrollo (ANID) of Chile
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 'CASI Award #1021865.01'
+  name: Burroughs Wellcome Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-10-01T00:19:48.975415+00:00'
+datePublished: '2025-10-23T23:36:27.168202+00:00'
 description: 'This dataset contains 312 sessions of multiunit threshold crossings,
   spiking band power, and behavioral data from a macaque performing a self-paced finger
   movement task. These sessions were recorded on 303 days spanning 1,242 days (~3.5
@@ -254,9 +280,13 @@ description: 'This dataset contains 312 sessions of multiunit threshold crossing
   position for each finger chosen randomly at each trial, with a maximum flexion difference
   between fingers of 50%). Further details on the experimental setup can be found
   in Nason et al. 2021, Neuron (DOI: 10.1016/j.neuron.2021.08.009) Code for this dataset
-  can be found at (https://github.com/chesteklab/LINK_dataset). The associated paper
-  is currently in submission, but will be available here.'
-ethicsApproval: []
+  can be found at (https://github.com/chesteklab/LINK_dataset).The associated paper
+  will be published in NeurIPS 2025 (Temmar et al '
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: PRO0001815
+  schemaKey: EthicsApproval
 id: DANDI:001201/draft
 identifier: DANDI:001201
 keywords:
@@ -269,6 +299,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001201/versions/draft/assets/
 name: 'LINK: Long-Term Intracortical Neural Activity and Kinematics'
+publishedBy:
+  endDate: '2025-10-23T23:36:27.168202+00:00'
+  id: urn:uuid:a43ca9f1-fbf6-4a30-a544-4604eedea8fa
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-10-23T23:36:27.168202+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:ab1ce676-c97c-49e0-98eb-346d3bb32284
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
