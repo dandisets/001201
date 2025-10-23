@@ -38,7 +38,7 @@ citation: 'Temmar, Hisham; Gill, Nina; Wang, Yixuan; Mellon, Nicholas B.; Liu, C
   Madison M.; Mender, Matthew J.; Hite, Aren I.; Wallace, Dylan M.; Nason-Tomaszewski,
   Samuel R.; Willsey, Matthew S.; Patil, Parag G.; Draelos, Anne W.; Chestek, Cynthia
   A. (2025) LINK: Long-Term Intracortical Neural Activity and Kinematics (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001201/draft'
+  0.251023.2336) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001201/0.251023.2336'
 contributor:
 - affiliation:
   - name: University of Michigan
@@ -282,12 +282,13 @@ description: 'This dataset contains 312 sessions of multiunit threshold crossing
   in Nason et al. 2021, Neuron (DOI: 10.1016/j.neuron.2021.08.009) Code for this dataset
   can be found at (https://github.com/chesteklab/LINK_dataset).The associated paper
   will be published in NeurIPS 2025 (Temmar et al '
+doi: 10.48324/dandi.001201/0.251023.2336
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: PRO0001815
   schemaKey: EthicsApproval
-id: DANDI:001201/draft
+id: DANDI:001201/0.251023.2336
 identifier: DANDI:001201
 keywords:
 - non-human primate
@@ -297,7 +298,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001201/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001201/0.251023.2336/assets.yaml
 name: 'LINK: Long-Term Intracortical Neural Activity and Kinematics'
 publishedBy:
   endDate: '2025-10-23T23:36:27.168202+00:00'
@@ -319,6 +320,6 @@ studyTarget:
 - Investigating nonstationarities in intracortical neural data w.r.t behavior over
   time, for the benefit of intracortical brain machine interfaces, population-dynamics
   driven neuroscience, and machine learning
-url: https://dandiarchive.org/dandiset/001201/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001201/0.251023.2336
+version: 0.251023.2336
 wasGeneratedBy: []
