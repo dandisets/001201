@@ -37,7 +37,7 @@ citation: 'Temmar, Hisham; Gill, Nina; Wang, Yixuan; Mellon, Nicholas B.; Liu, C
   Cubillos, Luis Hernan; Parsons, Rio I.; Costello, Joseph T.; Ceradini, Matteo; Kelberman,
   Madison M.; Mender, Matthew J.; Hite, Aren I.; Wallace, Dylan M.; Nason-Tomaszewski,
   Samuel R.; Willsey, Matthew S.; Patil, Parag G.; Draelos, Anne W.; Chestek, Cynthia
-  A. (2025) LINK: Long-Term Intracortical Neural Activity and Kinematics (Version
+  A. (2026) LINK: Long-Term Intracortical Neural Activity and Kinematics (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001201/draft'
 contributor:
 - affiliation:
@@ -264,7 +264,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-10-01T00:19:48.975415+00:00'
-datePublished: '2025-10-23T23:36:27.168202+00:00'
 description: 'This dataset contains 312 sessions of multiunit threshold crossings,
   spiking band power, and behavioral data from a macaque performing a self-paced finger
   movement task. These sessions were recorded on 303 days spanning 1,242 days (~3.5
@@ -280,7 +279,7 @@ description: 'This dataset contains 312 sessions of multiunit threshold crossing
   position for each finger chosen randomly at each trial, with a maximum flexion difference
   between fingers of 50%). Further details on the experimental setup can be found
   in Nason et al. 2021, Neuron (DOI: 10.1016/j.neuron.2021.08.009) Code for this dataset
-  can be found at (https://github.com/chesteklab/LINK_dataset).The associated paper
+  can be found at (https://github.com/chesteklab/LINK_dataset ). The associated paper
   will be published in NeurIPS 2025 (Temmar et al '
 ethicsApproval:
 - contactPoint:
@@ -299,18 +298,6 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001201/versions/draft/assets/
 name: 'LINK: Long-Term Intracortical Neural Activity and Kinematics'
-publishedBy:
-  endDate: '2025-10-23T23:36:27.168202+00:00'
-  id: urn:uuid:a43ca9f1-fbf6-4a30-a544-4604eedea8fa
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2025-10-23T23:36:27.168202+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:ab1ce676-c97c-49e0-98eb-346d3bb32284
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
