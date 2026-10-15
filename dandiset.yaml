@@ -38,7 +38,7 @@ citation: 'Temmar, Hisham; Gill, Nina; Wang, Yixuan; Mellon, Nicholas B.; Liu, C
   Madison M.; Mender, Matthew J.; Hite, Aren I.; Wallace, Dylan M.; Nason-Tomaszewski,
   Samuel R.; Willsey, Matthew S.; Patil, Parag G.; Draelos, Anne W.; Chestek, Cynthia
   A. (2026) LINK: Long-Term Intracortical Neural Activity and Kinematics (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001201/draft'
+  0.261015.2153) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001201/0.261015.2153'
 contributor:
 - affiliation:
   - name: University of Michigan
@@ -264,6 +264,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-10-01T00:19:48.975415+00:00'
+datePublished: '2026-10-15T21:53:58.840800+00:00'
 description: 'This dataset contains 312 sessions of multiunit threshold crossings,
   spiking band power, and behavioral data from a macaque performing a self-paced finger
   movement task. These sessions were recorded on 303 days spanning 1,242 days (~3.5
@@ -281,12 +282,13 @@ description: 'This dataset contains 312 sessions of multiunit threshold crossing
   in Nason et al. 2021, Neuron (DOI: 10.1016/j.neuron.2021.08.009) Code for this dataset
   can be found at (https://github.com/chesteklab/LINK_dataset ). The associated paper
   will be published in NeurIPS 2025 (Temmar et al '
+doi: 10.48324/dandi.001201/0.261015.2153
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: PRO0001815
   schemaKey: EthicsApproval
-id: DANDI:001201/draft
+id: DANDI:001201/0.261015.2153
 identifier: DANDI:001201
 keywords:
 - non-human primate
@@ -296,9 +298,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001201/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001201/0.261015.2153/assets.yaml
 name: 'LINK: Long-Term Intracortical Neural Activity and Kinematics'
+publishedBy:
+  endDate: '2026-10-15T21:53:58.840800+00:00'
+  id: urn:uuid:521cf2cc-33de-41be-b094-c55f03bae490
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-15T21:53:58.840800+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:1aaedb00-e218-475f-93c9-100e51792fdb
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
+releaseNotes: fixed typo in description which broke github URL
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
@@ -306,6 +321,6 @@ studyTarget:
 - Investigating nonstationarities in intracortical neural data w.r.t behavior over
   time, for the benefit of intracortical brain machine interfaces, population-dynamics
   driven neuroscience, and machine learning
-url: https://dandiarchive.org/dandiset/001201/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001201/0.261015.2153
+version: 0.261015.2153
 wasGeneratedBy: []
